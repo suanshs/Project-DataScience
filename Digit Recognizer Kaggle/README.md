@@ -12,3 +12,20 @@ Convolution Neural Network(CNN) is a class of feed forward artificial neural net
 
 For my implementation, I am using a CNN with two convolution layers with 6 and 16 filters. I am also using a fully dense layer with 128 perceptrons and an output layer with 10 perceptrons. I am using max pooling and relu layers in between as well.
 
+### Implementation
+I am using tensorflow library in python to build both the models. To compare the results I am performing 5-fold stratified cross validation and taking the mean of accuracies of both the models.
+
+### Result
+Both the models perform well in identifying the images however, I found that CNN performs slightly better than the MLP.
+
+### Conclusion
+Since this is not a very complex data set and the images are of just 28\*28 pixels, we are not seeing much improvement with the CNN. Also, the CNN are taking longer to train because of its complex infrastructure.
+
+### References
+https://en.wikipedia.org/wiki/Multilayer_perceptron
+https://en.wikipedia.org/wiki/Convolutional_neural_network
+https://en.wikipedia.org/wiki/Kernel_(image_processing)
+https://www.tensorflow.org/tutorials/layers
+
+
+
