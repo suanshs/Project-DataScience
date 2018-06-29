@@ -8,6 +8,7 @@ Learning occurs in the perceptron by changing connection weights after each piec
 For my implementation, I  am using an MLP with 3 layers - input, hidden and output. Input layer takes the 784 pixels of the image as an input, the hidden layer consists of 500 neurons performing relu transformation and finally there is an output layer with 10 neurons.
 
 ### Convolution Neural Network
+Convolution Neural Network(CNN) is a class of feed forward artificial neural networkcommonly used for analyzing vision imagery. Like MLP, CNN also consists of input layer, hidden layers and ourtput layer but the hidden layers of CNN typically consists of convolutional layers, pooling layers, fully connected layers and normalization layers. Convolution in image classification is generally used for edge detection. So, the convolution layers in CNN help in identifying the patterns in the image. 
 
-
+For my implementation, I am using a CNN with two convolution layers with 6 and 16 filters. I am also using a fully dense layer with 128 perceptrons and an output layer with 10 perceptrons. I am using max pooling and relu layers in between as well.
 
